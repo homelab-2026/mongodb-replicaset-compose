@@ -5,6 +5,9 @@ This guide will walk you through setting up a MongoDB Replicaset with docker com
 ### Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed
+ or
+- Docker
+- Docker Compose
 
 ### Getting started
 
@@ -13,7 +16,7 @@ This guide will walk you through setting up a MongoDB Replicaset with docker com
 3. Create the MongoDB Replicaset using the command:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 4. Then when the containers are up, you can connect to the mongodb replicaset by typing:
